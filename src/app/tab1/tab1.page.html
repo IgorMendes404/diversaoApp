@@ -1,17 +1,48 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="warning">
     <ion-title>
-      Tab 1
+      Filmes
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-grid>
+    
+    <ion-row>
+      <ion-col size="6">
+        <h1>Sonic: O Filme</h1>
+        <h2>12 de fevereiro de 2020</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/Kt9iFdTu5TbAm7tNfc876mrWU.jpg"/>
+        <p>Depois de descobrir um ouriço pequeno, azul e rápido, um policial de uma pequena cidade deve ajudá-lo a derrotar um gênio do mal que deseja fazer experiências com…</p>
+        <ion-button expand="block" fill="outline">Mais informações...</ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <h1>As Crônicas de Spiderwick</h1>
+        <h2>14 de fevereiro de 2008</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/v9rqAg6EI4AzlYxlA6OXattBm8f.jpg"/>
+        <p>Quando a família Grace se muda de Nova York para o velho casarão de um tio-avô, Arthur Spiderwick (David Strathairn), fatos estranhos começam a acontecer. Misteriosos…</p>
+        <ion-button expand="block" fill="outline">Mais informações...</ion-button>
+      </ion-col>
+    </ion-row>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    <ion-row>
+      <ion-col size="6">
+        <h1> De Volta para o Futuro</h1>
+        <h2>3 de julho de 1985</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/i996T0lI1fGtFEowiH3V6eZthL0.jpg"/>
+        <p>Um jovem (Michael J. Fox) aciona acidentalmente uma máquina do tempo construída por um cientista (Christopher Lloyd) em um Delorean, retornando aos anos 50. Lá conhece…</p>
+        <ion-button expand="block" fill="outline">Mais informações...</ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <h1>Stardust - O Mistério da Estrela</h1>
+        <h2>9 de agosto de 2007</h2>
+        <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/A4SVyLxB7WGzW8GGiKs3pizTUte.jpg"/>
+        <p>O jovem Tristan (Charlie Cox) tenta conquistar o amor da bela e fria Victoria (Sienna Miller) indo em busca de uma estrela cadente. A jornada o leva a uma terra…</p>
+        <ion-button expand="block" fill="outline">Mais informações...</ion-button>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
 </ion-content>
